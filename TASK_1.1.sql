@@ -1,0 +1,1 @@
+SELECT c.first_name, c.city, o.order_date FROM customers as c INNER JOIN orders as o ON c.customer_id = o.customer_id WHERE EXTRACT(YEAR FROM o.order_date) = 2023;

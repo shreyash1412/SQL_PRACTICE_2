@@ -1,0 +1,1 @@
+SELECT DISTINCT payment_mode FROM orders;

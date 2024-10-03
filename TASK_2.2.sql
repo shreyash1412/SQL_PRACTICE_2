@@ -1,0 +1,1 @@
+SELECT DISTINCT supplier_name FROM products;
